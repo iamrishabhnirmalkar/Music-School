@@ -4,6 +4,7 @@ import Testimonials from "@/components/Testimonials";
 import UpcomingWebniars from "@/components/UpcomingWebniars";
 import Whychoseus from "@/components/Whychoseus";
 import Intructor from "@/components/Intructor";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Testimonials />
         <UpcomingWebniars />
         <Intructor />
+        <Footer />
       </div>
     </>
   );
